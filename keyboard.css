@@ -1,0 +1,68 @@
+.keyboard{
+    height: 1000px;
+    width: 90%;
+    margin:auto;
+    margin-top: 50px;
+
+
+}
+
+button{
+    background-color:black;
+    color:white;
+    border-radius: 5px;
+    box-shadow:2px 2px 10px black;
+    height:55px;
+    width: 45px;
+    transition: 0s;
+}
+button:active{
+    background-color: lightblue;
+    box-shadow: 3px 3px 15px black;
+
+}
+
+.firstrow button{
+    height:20px;
+    width:50px;
+    margin-top: 2px;
+}
+.delete{
+    width: 110px;
+    margin-top: 10px;
+    margin-left: 2px;
+
+}
+#shift{
+    width:125px;
+}
+#caps{
+    width:102px;
+}
+#tabs{
+    width:110px;
+}
+#gt{
+    height:20px;
+    width:47px;
+}
+#space{
+    width: 238px;
+}
+#wt{
+    width:57px;
+}
+.foward_backward{
+    display:flex;
+    height:60px;
+    width:30%; 
+    
+}
+.lastrow{
+    display:flex;
+    flex-direction: row;
+    width:8000px;
+}
+.lastrow button{
+    margin:2px;
+}
